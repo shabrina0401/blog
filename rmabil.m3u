@@ -1,0 +1,18 @@
+#EXTM3U
+#EXTINF:-1, Yalla 720p
+https://d248rfxbmbpo3r.cloudfront.net/out/v1/5b9ddc6e607d46138a1d6732b5959fe9/index_1.m3u8
+
+#EXTINF:-1, Yalla 480p
+https://d248rfxbmbpo3r.cloudfront.net/out/v1/5b9ddc6e607d46138a1d6732b5959fe9/index_3.m3u8
+
+#EXTINF:-1, Yalla 360p
+https://d248rfxbmbpo3r.cloudfront.net/out/v1/5b9ddc6e607d46138a1d6732b5959fe9/index_4.m3u8
+
+#EXTINF:-1, Yalla Shoot HD
+https://d248rfxbmbpo3r.cloudfront.net/out/v1/5b9ddc6e607d46138a1d6732b5959fe9/index_1.m3u8
+
+#EXTINF:-1, Yalla Shoot SD
+https://d248rfxbmbpo3r.cloudfront.net/out/v1/5b9ddc6e607d46138a1d6732b5959fe9/index_3.m3u8
+
+#EXTINF:-1, English
+http://cdn3.cyclingnews.live/hls/W1.m3u8
