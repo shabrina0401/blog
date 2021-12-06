@@ -1,6 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=1071299,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360
-https://vtv-live-push-token.akamaized.net/hls/live/2029314/vtv6/vtv6-360p/hdntl=exp=1638867489~acl=%2f*~data=hdntl~hmac=0cb30efd18d07f16be459ca2e9a854de887b5ed8c6355b7a63a65c563afc1633/chunklist.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=1502195,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480
-https://vtv-live-push-token.akamaized.net/hls/live/2029314/vtv6/vtv6-480p/hdntl=exp=1638867489~acl=%2f*~data=hdntl~hmac=0cb30efd18d07f16be459ca2e9a854de887b5ed8c6355b7a63a65c563afc1633/chunklist.m3u8
+https://mutixx5hq1liv.akamaized.net/vtv5tn/vtv5tn@720p.m3u8
