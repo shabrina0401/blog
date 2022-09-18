@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- Pemetaan -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="noindex">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="referrer" content="no-referrer"/>
+        <meta name="msapplication-TileColor" content="#3f51b5">
+    <!-- Functional & CSS -->
+        <script src="https://cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p2p-media-loader-hlsjs@latest/build/p2p-media-loader-hlsjs.min.js"></script>
+        <link rel='stylesheet' href='https://shabrina0401.github.io/blog/Player/plyr.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+        <script src="https://shabrina0401.github.io/blog/Player/plyr.js"></script>
+
+<style>
+    body {
+        width:100%;
+        height: 450;
+        font-family: Poppins;
+        display:block;
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+        background: #000;
+        overflow: hidden;
+    }
+    video{
+        width:100%;
+        height: 100%;
+        display:inline-block;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+</style>
+</head>
+<body>
+<video id="player" crossorigin="anonymous" preload="none" playsinline controls allowFullScreen webkitallowfullscreen mozallowfullscreen></video>
+
+                    <script src="https://shabrina0401.github.io/blog/Player/player.js"></script> 
+            <script src="https://shabrina0401.github.io/blog/Player/shaka-player.compiled.js"></script>
+<script>
+    var data = {
+            drm: 'aHR0cHM6Ly9kcm13aWRldmluZS5ub250b25ib2xhLm15LmlkL2h0dHBzOi8vbXJwdy5wdG1uYzAxLnZlcnNwZWN0aXZlLm5ldC8/ZGV2aWNlSWQ9Tmpjd1lXSTJaR0V0WXpFNFlpMHpaV0ZsTFRsak9XWXRaR0V6T0dJd1lXRmpOMkkx',
+            widevine: 'aHR0cHM6Ly9saXZlYW5ldmlhLm1uY25vdy5pZC9saXZlL2Vkcy9CZUlOMnMvc2FfZGFzaF92bXgvQmVJTjJzLm1wZA==',
+        }
+</script>
+</body>
+</html>
