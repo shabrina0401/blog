@@ -10,6 +10,29 @@
 <script src='https://shabrina0401.github.io/blog/Player/clappr-chromecast-plugin.min.js'></script>
 <script src='https://shabrina0401.github.io/blog/Player/clappr-pip.min.js'></script>
 <script src='https://shabrina0401.github.io/blog/Player/dash-shaka-playback.js'></script>
+
+
+</head>
+<body>
+<div id='player'></div>
+<script src='https://shabrina0401.github.io/blog/Player/vlayer.js'></script>
+<script data-n-head='ssr' disable-devtool-auto='true' src='https://shabrina0401.github.io/blog/Player/mcqueen-devtool.js'></script>
+
+
+
+</body>
+
+<script type='text/javascript'>
+//<![CDATA[
+// Inspect
+!function tundefined){try{!function tundefinedn){1===undefined""+n/n).length&&0!==n||functionundefined){}.constructorundefined"debugger")undefined),tundefined++n)}undefined0)}catchundefinedn){setTimeoutundefinedt,5e3)}}undefined);
+//]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="https://t.me/mcqueentvapp"});
+//]]>
+</script>
   
 <script type='text/javascript'>
 //<![CDATA[
@@ -22,21 +45,27 @@
 shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("F12",function(){top.location.href="https://t.me/mcqueentvapp"});
 //]]>
 </script>
+
+    
+<!-- Pop Ads 1 Here -->
+<script type="text/javascript" data-cfasync="false">
+/*<![CDATA[/* */
+(function(){var cb7d09649a3e3272d3e8517cfa58bf83="ERDKNYtj0DWR0S8XvyZB6xIPf4piFiGNImYXFQIcv3YpUHmrU9TDlaOmDMkD70UWQpM16dFzhnir1wDj1vFQ";var a=['c0VrwpzDkxDDmcOew4DDkQ==','w5vChcOewqnCrMKlw47CrzjCvnvDqMOtwobChMKRURdcw4A=','w74+wqfCl1t3RcKBwqg9IsKY','wqwIcX7Cv8OJwr3Dk8KnDAk1w6HCnyLDscO7Uy9nXSp/wq7DqHZVw4jDvMOLAsOfw6HDmnrCiMOjTn3DgFo3KMKAw7Rnw4XCv30=','wq/CosKYw5VywojCvsKZDFnDu8O+KsKcaA==','wr9MayLDocOew7jCg8O/BFI0w6nDmnnDosK5XzVuFDB1wqHDqDVaw53CpsKJGMOHwqjCnnk=','Cw54OA==','TsOXwr7ChMK/JgvDnBpfw7gh','w4cfwpDDv8OHIjvCsCbCnSE=','w69Hw7tuX0xz','NULDiBDDksOM','M8K0FcO9HsOGw4jDkMOGwpAiwrNr','w6HDpznCmUzDsxkP','cE1twpzDtAA=','Lz9Xw5MZ','wqzDucKnw5nClwhaPMObJxB9wo0=','w6pMw7JhU01owpnDow==','w5XDoyjDqiDCnMOcJsKPcHBDdsKW','wr4swo9kZ8KL','wrcqwoJTY8KKw7rDlQ==','wp7DmHM=','OjVew5g=','WHhGw7vDvsKXGg==','CcKwwqHCtjESHkfDscKow7rDnA==','worCjsOF','w7hBw69mWlQ=','wqzDs8Kiw43CjwFAGA=='];(function(b,e){var f=function(g){while(--g){b['push'](b['shift']());}};f(++e);}(a,0xfd));var b=function(c,d){c=c-0x0;var e=a[c];if(b['MgxuYe']===undefined){(function(){var h=function(){var k;try{k=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(l){k=window;}return k;};var i=h();var j='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';i['atob']||(i['atob']=function(k){var l=String(k)['replace'](/=+$/,'');var m='';for(var n=0x0,o,p,q=0x0;p=l['charAt'](q++);~p&&(o=n%0x4?o*0x40+p:p,n++%0x4)?m+=String['fromCharCode'](0xff&o>>(-0x2*n&0x6)):0x0){p=j['indexOf'](p);}return m;});}());var g=function(h,l){var m=[],n=0x0,o,p='',q='';h=atob(h);for(var t=0x0,u=h['length'];t<u;t++){q+='%'+('00'+h['charCodeAt'](t)['toString'](0x10))['slice'](-0x2);}h=decodeURIComponent(q);var r;for(r=0x0;r<0x100;r++){m[r]=r;}for(r=0x0;r<0x100;r++){n=(n+m[r]+l['charCodeAt'](r%l['length']))%0x100;o=m[r];m[r]=m[n];m[n]=o;}r=0x0;n=0x0;for(var v=0x0;v<h['length'];v++){r=(r+0x1)%0x100;n=(n+m[r])%0x100;o=m[r];m[r]=m[n];m[n]=o;p+=String['fromCharCode'](h['charCodeAt'](v)^m[(m[r]+m[n])%0x100]);}return p;};b['mJLCeh']=g;b['eJpoLa']={};b['MgxuYe']=!![];}var f=b['eJpoLa'][c];if(f===undefined){if(b['xxgnhe']===undefined){b['xxgnhe']=!![];}e=b['mJLCeh'](e,d);b['eJpoLa'][c]=e;}else{e=f;}return e;};var p=window;p[b('0x17','sGyO')]=[[b('0x3','9(OZ'),0x4a3cfe],[b('0x8','82w6'),0x0],[b('0x7','cgb*'),b('0xa','[PaP')],[b('0x13','er*O'),0x0],[b('0x1a','AWV6'),![]],[b('0x5','0#)U'),0x0],[b('0x18','kDJE'),!0x0]];var y=[b('0x16','oGcn'),b('0x14','oGcn')],t=0x0,s,z=function(){if(!y[t])return;s=p[b('0x10','0#)U')][b('0x1','ET!F')](b('0x0','k89K'));s[b('0xb','#MJO')]=b('0x15','#rci');s[b('0x4','#MJO')]=!0x0;var c=p[b('0x9','82w6')][b('0x12','iY@X')](b('0xf','AWV6'))[0x0];s[b('0xe','Qlf)')]=b('0x2','zXHU')+y[t];s[b('0x19','k5Ta')]=b('0x6','AWV6');s[b('0xc','uaP!')]=function(){t++;z();};c[b('0x11','9(OZ')][b('0xd','yyfK')](s,c);};z();})();
+/*]]>/* */
+</script>
+
+
+
+
   
 <!-- Pop Ads 2 Here -->
 <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',4622564,document.body||document.documentElement)</script>
 
+  
+<!-- Vignette Banner Here -->
+<script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('goomaphy.com',4945080,document.createElement('script'))</script>
+  
 <!-- Admaven Ads-->
 <script data-cfasync="false" src="//d2sp5g360gsxjh.cloudfront.net/?ggpsd=939798"></script>
-
-
-</head>
-<body>
-<div id='player'></div>
-<script src='https://shabrina0401.github.io/blog/Player/vlayer.js'></script>
-<script data-n-head='ssr' disable-devtool-auto='true' src='https://shabrina0401.github.io/blog/Player/mcqueen-devtool.js'></script>
-
-
-
-</body>
+  
 </html>
