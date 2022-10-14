@@ -49,7 +49,7 @@ $(document).ready(function(){
                         settings: ['quality', 'speed', 'loop'],
                         speed: {
                                     selected: 1,
-                                    options: [0.5, 0.75, 1]
+                                    options: [1, 1, 1]
                                 },
                         quality: {
                             options: bitrates.map(j => j.height),
