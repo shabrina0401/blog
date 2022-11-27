@@ -11,7 +11,7 @@ Setelah Berhasil Install kemudian ikuti langkah Berikut :
 ■ Pilih add url
 ■ Playlist Name isikan bebas
 ■ Playlist url isikan ini
-(UTL Bisa Chat Admin Telegram @nuhamcqueen)
+(URL Bisa Chat Admin Telegram @nuhamcqueen)
 ■ pilih create
 ■ Kemudian klik list yang barusan tadi dibuat
 
