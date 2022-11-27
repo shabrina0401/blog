@@ -1,8 +1,0 @@
-#EXTM3U
-#EXT-X-VERSION:6
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=145000,CODECS="avc1.4dc01e,mp4a.40.2",RESOLUTION=426x240
-https://europe-west-hls.mls.mycujoo.tv/esgp/ckxsobuww00bi0123g84dqy13/240p/playlist.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1100000,CODECS="avc1.4dc01e,mp4a.40.2",RESOLUTION=854x480
-https://europe-west-hls.mls.mycujoo.tv/esgp/ckxsobuww00bi0123g84dqy13/480p/playlist.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3000000,CODECS="avc1.4dc01e,mp4a.40.2",RESOLUTION=1280x720
-https://europe-west-hls.mls.mycujoo.tv/esgp/ckxsobuww00bi0123g84dqy13/720p/playlist.m3u8
