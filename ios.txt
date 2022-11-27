@@ -9,7 +9,6 @@ Setelah Berhasil Install kemudian ikuti langkah Berikut :
 ■ Pilih Menu Playlist Terpencil
 ■ Klik Tanda + Pada ikon pojok kanan bawah Aplikasi
 ■ Kemuadian Pilih Tambahkan URL M3u
-■ Playlist Name isikan bebas
 ■ Nama Daftar Putar diisi bebas, Kemudian Link Playlist isikan berikut :
 (Link Playlist Bisa Chat Admin Telegram @nuhamcqueen)
 ■ pilih Menambahkan
