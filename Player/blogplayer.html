@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://shabrina0401.github.io/blog/playerweb.js" type="text/javascript"></script>
+ <style>
+      html,body{
+         margin:0;padding:0;width:100%;height:100%;
+      }
+   </style>
+
+
+<!-- Popup Script -->   
+<script src="https://shabrina0401.github.io/blog/Ads/adsterra/popunder.js"></script>
+<script src="https://shabrina0401.github.io/blog/Ads/propeller/popunder.js"></script>
+<script>
+function addEvent(obj, eventName, func){       if (obj.attachEvent)      {      obj.attachEvent("on" + eventName,  func);      }      else if(obj.addEventListener)      {       obj.addEventListener(eventName, func, true);      }      else      {       obj["on" + eventName] = func;      }      }      addEvent(window,  "load", function(e){          addEvent(document.body, "click",  function(e)          {             if(document.cookie.indexOf("bkc=lyk")  == -1)             {          params = 'width=' + screen.width;           params += ', height=' + screen.height;                  params += ',  top=1000, left=1200px ,scrollbars=no';                  params += ',  fullscreen=yes,width=1000,height=800';                  var w = window.open("https://www.highperformancecpmgate.com/hfm0x0ewi?key=a1638d77d307d5286ac39a49fed092b7", 'window', params).blur();                   document.cookie = "bkc=lykshoptinhoc";                  window.focus();              }          });      });
+</script>
+
+</head>
+<body oncontextmenu='return false' onkeydown='return false;' onmousedown='return false;'>
+    
+<div id="playerjs" style="width:100%;height:100%;"></div>
+<script type="text/javascript">
+      var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+      var vs = {id:"playerjs"};  
+      for(var i = 0; i<ps.length; i++){
+         var p = ps[i].substr(0,ps[i].indexOf("="));
+         var v = ps[i].substr(ps[i].indexOf("=")+1);
+         if(p!=v){
+            vs[p] = decodeURIComponent(v);
+         }
+      }
+      if(vs.file){
+         var playerjs = new Playerjs(vs);
+      }
+   </script>
+</body>
+</html>
