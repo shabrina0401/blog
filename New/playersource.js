@@ -8,7 +8,7 @@ function playM3u8(url, license){
                     height: '100%',
                     fullscreenEnabled:'true',
                     hideMediaControl: 'false',
-                    watermark: 'https://raw.githubusercontent.com/shabrina0401/pict/main/Mcqueen.png',
+                    watermark: 'https://raw.githubusercontent.com/shabrina0401/pict/main/Poster.png',
                     position: 'bottom-right',
                     plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback],
            
