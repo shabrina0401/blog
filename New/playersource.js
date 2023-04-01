@@ -24,7 +24,7 @@ function playM3u8(url, license){
                     preferredAudioLanguage: 'en-US',
                     drm: {
                     servers: {
-                    'com.widevine.alpha': 'https://gdplayer.tv/license/?drm=widevine&key=gtv&token=cnlmQVFTeXo2NUlHMDZVZG9QMm5EZz09OjqGaLspe3Y9ZJcg9xXDUkEB'
+                    'com.widevine.alpha': 'https://gdplayer.tv/license/?drm=widevine&key=gtv&token=NVNJWDBXNGJVNkdKQk1qWGxsZ2FZZz09Ojpj9C3YCkMS4Y6zpzrQJNUe'
                              }
                          },
                     streaming: {
