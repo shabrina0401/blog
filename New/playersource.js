@@ -8,7 +8,7 @@ function playM3u8(url, license){
                     height: '100%',
                     fullscreenEnabled:'true',
                     hideMediaControl: 'false',
-                    watermark: 'https://raw.githubusercontent.com/shabrina0401/pict/main/Poster.png',
+                    watermark: 'https://raw.githubusercontent.com/shabrina0401/pict/main/Mcqueen.png',
                     position: 'bottom-right',
                     plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback],
            
@@ -24,7 +24,7 @@ function playM3u8(url, license){
                     preferredAudioLanguage: 'en-US',
                     drm: {
                     servers: {
-                    'com.widevine.alpha': 'https://gdplayer.tv/license/?drm=widevine&key=gtv&token=bC9GTkgvaTdWZVJZQjEyQ3NvZEpiUT09OjqxVYXmVi2yDKEsXrrEkDcP'
+                    'com.widevine.alpha': 'https://gdplayer.tv/license/?drm=widevine&key=gtv&token=cnlmQVFTeXo2NUlHMDZVZG9QMm5EZz09OjqGaLspe3Y9ZJcg9xXDUkEB'
                              }
                          },
                     streaming: {
