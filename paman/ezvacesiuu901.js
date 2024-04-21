@@ -18,10 +18,7 @@
                 url: "https://cors-proxy.elfsight.com/https://edge1.laotv.la/live/TrueSport6/index.m3u8",
             },
           "TIMNAZ3": {
-                url: "https://ec02-pop1-hlc.tv360.vn/bpk-token/cryugczcxvcqwf5rxiybk4kdbmkhcqyl/bpk-tv/194/output/index.m3u8?bkm-query",
-            },
-          "TIMNAZ4": {
-                url: "https://ec02-pop1-hlc.tv360.vn/bpk-token/cryugczcxvcqwf5rxiybk4kdbmkhcqyl/bpk-tv/194/output/index.m3u8?bkm-query",
+                url: "https://cors-proxy.elfsight.com/https://pull.niues.live/live/stream-9912043_lsd.m3u8?auth_key=1713715510-0-0-30dc47ef7c434a8c029dd1a8132f31d",
             },
           "HALA1": {
                 url: "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd",
