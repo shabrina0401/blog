@@ -31,7 +31,7 @@
                 k2: "e41c3a6f7532b2e3a828d9580124c89d"
             },
           "HALA3": {
-                url: "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.m3u8",
+                url: "https://pull.jsjwhzx.xyz/live/stream-551866_lhd.m3u8?auth_key=1713728938-0-0-9ea9e3790a1bd8e2b9b83d4e827bf18a",
             },
 
         };
