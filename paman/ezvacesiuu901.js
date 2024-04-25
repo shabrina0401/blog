@@ -20,18 +20,21 @@
           "KORIDN3": {
                 url: "https://node3.olelive.com:6443/live/CCTV5HD/hls.m3u8",
             },
-          "HALA1": {
-                url: "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd",
-                k1: "c0f378ad54e14a9c85a3d8c986d2a51f",
-                k2: "5e1d040743ff78715e464ffb905e68a9"
+          "DEMIT1": {
+                url: "https://linear030-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_720_120/Live/channel(premiersports2)/manifest_720.mpd",
+                k1: "00051b444166784a94fd9880e2f112da",
+                k2: "def3adcb16de2daa9eaa8f20557fb1c1"
             },
-          "HALA2": {
-                url: "https://webtvstream.bhtelecom.ba/hls6/as_premium3.mpd",
+          "DEMIT2": {
+                url: "https://webtvstream.bhtelecom.ba/hls6/arena1.mpd",
                 k1: "c18b6aa739be4c0b774605fcfb5d6b68",
                 k2: "e41c3a6f7532b2e3a828d9580124c89d"
             },
-          "HALA3": {
-                url: "https://pull.jsjwhzx.xyz/live/stream-551866_lhd.m3u8?auth_key=1713728938-0-0-9ea9e3790a1bd8e2b9b83d4e827bf18a",
+          "DEMIT3": {
+                url: "https://bkm.beetv.kz/btv/live/hls/000006998.m3u8",
+            },
+        "DEMIT4": {
+                url: "https://cors-proxy.elfsight.com/",
             },
 
         };
