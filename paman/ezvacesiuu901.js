@@ -9,16 +9,16 @@
 
         var ConfiguracionCanales = {
             
-            "TIMNAZ1": {
-                url: "https://ssc-extra1-ak.akamaized.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd",
-                k1: "ecbc9e6fe6b145efb6658fb5cf7427f8",
-                k2: "03c17e28911f71221acbc0b11f900401"
+            "KORIDN1": {
+                url: "https://ssc-extra2-ak.akamaized.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/index.mpd",
+                k1: "4d89249bd4ca4ebc9e70443265f9507d",
+                k2: "cf074ffd2646c9c2f8513b47fa57bc30"
             },
-          "TIMNAZ2": {
-                url: "https://cors-proxy.elfsight.com/https://edge1.laotv.la/live/TrueSport6/index.m3u8",
+          "KORIDN2": {
+                url: "https://cors-proxy.elfsight.com/https://edge1.laotv.la/live/TrueSport2/index.m3u8",
             },
-          "TIMNAZ3": {
-                url: "https://cors-proxy.elfsight.com/https://pull.niues.live/live/stream-9912043_lsd.m3u8?auth_key=1713715510-0-0-30dc47ef7c434a8c029dd1a8132f31d",
+          "KORIDN3": {
+                url: "https://node3.olelive.com:6443/live/CCTV5HD/hls.m3u8",
             },
           "HALA1": {
                 url: "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd",
