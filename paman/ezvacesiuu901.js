@@ -21,9 +21,9 @@
                 url: "https://node3.olelive.com:6443/live/CCTV5HD/hls.m3u8",
             },
           "DEMIT1": {
-                url: "https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd",
-                k1: "8ab2332442854e62b0018eec3ee58484",
-                k2: "37fdee8b6eef5c96001e8c6fc47bfc08"
+                url: "https://linear030-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_720_120/Live/channel(premiersports2)/manifest_720.mpd",
+                k1: "00051b444166784a94fd9880e2f112da",
+                k2: "def3adcb16de2daa9eaa8f20557fb1c1"
             },
           "DEMIT2": {
                 url: "https://webtvstream.bhtelecom.ba/hls6/arena1.mpd",
