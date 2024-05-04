@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RMDL Player</title>
+    <meta content="noindex, nofollow, noarchive" name="robots"/>
+    <meta name="referrer" content="no-referrer" />
+    <script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+    <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
+    <style>
+        body { margin: 0px; }
+        .ViostreamIframe { overflow: hidden; padding-top: 56.25%; position: relative; }
+        .ViostreamIframe iframe { border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
+    </style>
+    
+<script type='text/javascript' src='https://shabrina0401.github.io/blog/Ads/propeller/popunder.js'></script>
+<script type='text/javascript' src='https://shabrina0401.github.io/blog/Ads/adsterra/popunder.js'></script>    
+    
+    
+</head>
+<body>
+    <div id="player" class="ViostreamIframe"></div>
+
+    <script>
+        function getParameterByName(name) {
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(window.location.href);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var ConfiguracionCanales = {
+
+            "JUARA1": {
+                url: "https://da-d436236720010b88000103030000000000000009.id.cdn.upcbroadband.com/wp/wp1-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/_shared_cc010062b17300c4504b6ab5681b5417/NL_000094_019321.mpd",
+                k1: "16bf72dc22743d929c4318e193408373",
+                k2: "eae51a1e3904124963074cbf432c7c8e"
+            },
+            "JUARA2": {
+                url: "https://ch11-hls-live.akamaized.net/out/u/433127.mpd",
+                k1: "d12e4c9dc52f4cbab7ac9b2278317e47",
+                k2: "a7987e5b6ec42db68a25486e108ca9f2"
+            },
+            "JUARA3": {
+                url: "https://cors-proxy.elfsight.com/https://linear.stvacdn.spectrum.com/LIVE/1166/dash/cenc/ESPNDHD_13667/manifest.mpd",
+                k1: "be65e5985fa04a49af310f0a92a0260a",
+                k2: "1acb5ff7b0dbfdf19c4dca1aabfaaa11"
+            },
+            "JUARA4": {
+                url: "https://bkm.beetv.kz/btv/live/hls/000006998.m3u8"
+            },
+           
+
+        };
+
+var id = getParameterByName('id');
+var config = ConfiguracionCanales[id];
+
+if (config) {
+    var sources = [];
+
+    if (config.url.includes('.m3u8')) {
+        sources.push({
+            file: config.url
+        });
+    }
+    
+    if (config.url.includes('.mpd') && config.k1 && config.k2) {
+        sources.push({
+            file: config.url,
+            drm: {"clearkey": {"keyId": config.k1, "key": config.k2}}
+        });
+    }
+
+ //JWWWWWW
+    jwplayer("player").setup({
+        playlist: [{
+            sources: sources
+        }],
+        autostart: false,
+        width: "100vw", 
+        height: "calc(var(--vh, 1vh) * 100)", 
+        aspectratio: "16:9",
+        cast: {}, 
+                sharing: {}
+        });
+        }
+
+
+
+
+    </script>
+</body>
+</html>
