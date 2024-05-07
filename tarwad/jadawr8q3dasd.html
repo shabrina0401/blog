@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RMDL Player</title>
+    <meta content="noindex, nofollow, noarchive" name="robots"/>
+    <meta name="referrer" content="no-referrer" />
+    <script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+    <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
+    <style>
+        body { margin: 0px; }
+        .ViostreamIframe { overflow: hidden; padding-top: 56.25%; position: relative; }
+        .ViostreamIframe iframe { border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
+    </style>
+    
+<script type='text/javascript' src='https://shabrina0401.github.io/blog/Ads/propeller/popunder.js'></script>
+<script type='text/javascript' src='https://shabrina0401.github.io/blog/Ads/adsterra/popunder.js'></script>    
+    
+    
+</head>
+<body>
+    <div id="player" class="ViostreamIframe"></div>
+
+    <script>
+        function getParameterByName(name) {
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(window.location.href);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var ConfiguracionCanales = {
+
+            "KOBEL1": {
+                url: "https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/master.mpd",
+                k1: "00368000eaecbeeafd84c05b3b8243af",
+                k2: "8f84185910e18ae0ca8a45004625a000"
+            },
+            "KOBEL2": {
+                url: "https://cors-proxy.elfsight.com/https://linear.stvacdn.spectrum.com/LIVE/1131/dash/cenc/TUDNUH_8283/manifest.mpd",
+                k1: "85c8956b207c44a693d89984803c908b",
+                k2: "8d8ff21c464506ef396356dd761f5ccd"
+            },
+            "KOBEL3": {
+                url: "https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd",
+                k1: "00f9f3c0783536b8ce4a30a01a52e082",
+                k2: "e926f7d45af4f7d154c990eae6a2d937"
+            },
+            "KOBEL4": {
+                url: "https://da-d436236720010b88000103030000000000000009.id.cdn.upcbroadband.com/wp/wp1-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000094_019321/_shared_cc010062b17300c4504b6ab5681b5417/NL_000094_019321.mpd",
+                k1: "16bf72dc22743d929c4318e193408373",
+                k2: "eae51a1e3904124963074cbf432c7c8e"
+            },
+           
+
+        };
+
+var id = getParameterByName('id');
+var config = ConfiguracionCanales[id];
+
+if (config) {
+    var sources = [];
+
+    if (config.url.includes('.m3u8')) {
+        sources.push({
+            file: config.url
+        });
+    }
+    
+    if (config.url.includes('.mpd') && config.k1 && config.k2) {
+        sources.push({
+            file: config.url,
+            drm: {"clearkey": {"keyId": config.k1, "key": config.k2}}
+        });
+    }
+
+ //JWWWWWW
+    jwplayer("player").setup({
+        playlist: [{
+            sources: sources
+        }],
+        autostart: false,
+        width: "100vw", 
+        height: "calc(var(--vh, 1vh) * 100)", 
+        aspectratio: "16:9",
+        cast: {}, 
+                sharing: {}
+        });
+        }
+
+
+
+
+    </script>
+</body>
+</html>
